@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Chandani Yadav, a skilled Frontend Developer and Programmer.">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">CHANDANI</a>
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div id="cursor"></div>
+    <div id="cursor-glow"></div>
+  </header>
+
+  <section class="about" id="about">
+    <div class="about-content">
+      <h1>
+        I'M A
+        <span>
+          <span>CODER</span>
+          <span>DEVELOPER</span>
+          <span>DESIGNER</span>
+          <span>PROGRAMMER</span>
+          <span>FREELANCER</span>
+        </span>
+      </h1>
+      <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi,i'm</h3>
+            <span class="intro">Chandani</span>
+      <div class="home-img">
+        <img src="download-removebg-preview (1).jpg" alt="Profile Image">
+      </div>
+    </div>
+    </section>
+    <h2 class="section-title"></h2>
+    <div class="about-container">
+      <!-- Card 1: Introduction -->
+      <div class="about-card">
+        <h3>Introduction</h3>
+        <p>
+          My name is <strong>Chandani Yadav</strong>. I am 22 years old and currently pursuing a B.Tech degree in Artificial Intelligence and Machine Learning at St. John College of Engineering and Management. I have completed my 10th and 12th education and am passionate about learning and growing in the tech field.
+        </p>
+      </div>
+
+      <!-- Card 2: Skills -->
+      <div class="about-card">
+        <h3>Skills</h3>
+        <ul>
+          <li>Programming: C, C++, Java</li>
+          <li>Frontend Development: HTML, CSS, JavaScript</li>
+          <li>Databases: SQL</li>
+          <li>Tools: Advanced Excel</li>
+        </ul>
+      </div>
+
+      <!-- Card 3: Social Links -->
+      <div class="about-card">
+        <h3>Social Links</h3>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/chandani-yadav-34a618261" target="_blank">
+            <i class='bx bxl-linkedin'></i> LinkedIn
+          </a>
+          <a href="https://www.instagram.com/_chandani_888/profilecard/?igsh=MWFhOHNvYXJhdncydg==" target="_blank">
+            <i class='bx bxl-instagram'></i> Instagram
+          </a>
+          <a href="https://github.com/chandani888" target="_blank">
+            <i class='bx bxl-github'></i> GitHub
+          </a>
+        </div>
+      </div>
+    
+
+  <!-- Placeholder sections for navigation -->
+  <section id="services"></section>
+  <section id="portfolio"></section>
+  <section id="contact">
+    <div class="about-card">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form> 
+    <!-- Success and error message placeholders -->
+<div id="success-message" style="display: none; color: green; font-size: 1.2rem;">
+  Your message has been sent successfully!
+</div>
+<div id="error-message" style="display: none; color: red; font-size: 1.2rem;">
+  Something went wrong. Please try again.
+</div>
+</div>
+  </section>
+  <div class="about-card">
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skill-container">
+        <div class="skill-circle">
+            <div class="outer">
+                <div class="inner">
+                    <p class="percent" data-percent="90">0%</p>
+                </div>
+            </div>
+            <p>HTML</p>
+        </div>
+
+        <div class="skill-circle">
+            <div class="outer">
+                <div class="inner">
+                    <p class="percent" data-percent="85">0%</p>
+                </div>
+            </div>
+            <p>CSS</p>
+        </div>
+
+        <div class="skill-circle">
+            <div class="outer">
+                <div class="inner">
+                    <p class="percent" data-percent="75">0%</p>
+                </div>
+            </div>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-circle">
+            <div class="outer">
+                <div class="inner">
+                    <p class="percent" data-percent="80">0%</p>
+                </div>
+            </div>
+            <p>Java</p>
+        </div>
+    </div>
+  </div>
+</section>
+</div>
+</section>
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Chandani. All rights reserved.</p>
+    </div>
+  </footer>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
